@@ -1,0 +1,4 @@
+baseURL = "http://cryptoumn.com"
+languageCode = "en-us"
+title = "Crypto@UMN"
+theme = "cryptoumn"
