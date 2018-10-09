@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Crypto@UMN</title>
+    <link>http://cryptoumn.com/club-event/</link>
+    <description>Recent content in Events on Crypto@UMN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Mar 2018 19:02:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://cryptoumn.com/club-event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Event three</title>
+      <link>http://cryptoumn.com/club-event/event_three/</link>
+      <pubDate>Fri, 09 Mar 2018 20:17:19 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/club-event/event_three/</guid>
+      <description>This is event 3</description>
+    </item>
+    
+    <item>
+      <title>Event two</title>
+      <link>http://cryptoumn.com/club-event/event_two/</link>
+      <pubDate>Fri, 09 Mar 2018 19:50:41 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/club-event/event_two/</guid>
+      <description>Yep, event number 2!!!</description>
+    </item>
+    
+    <item>
+      <title>Event one</title>
+      <link>http://cryptoumn.com/club-event/event_one/</link>
+      <pubDate>Thu, 08 Mar 2018 18:19:37 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/club-event/event_one/</guid>
+      <description>This is definitely not event 1</description>
+    </item>
+    
+  </channel>
+</rss>

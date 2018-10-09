@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Crypto@UMN</title>
+    <link>http://cryptoumn.com/</link>
+    <description>Recent content in Home on Crypto@UMN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Mar 2018 14:48:58 -0600</lastBuildDate>
+    
+	<atom:link href="http://cryptoumn.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Untitled</title>
+      <link>http://cryptoumn.com/newsletter/newsletterthree/</link>
+      <pubDate>Sun, 25 Mar 2018 14:46:59 -0500</pubDate>
+      
+      <guid>http://cryptoumn.com/newsletter/newsletterthree/</guid>
+      <description>Write in Markdown&amp;hellip;  :D</description>
+    </item>
+    
+    <item>
+      <title>Newsletter Two</title>
+      <link>http://cryptoumn.com/newsletter/newslettertwo/</link>
+      <pubDate>Fri, 16 Mar 2018 20:16:20 -0500</pubDate>
+      
+      <guid>http://cryptoumn.com/newsletter/newslettertwo/</guid>
+      <description>Le Newsletter  Write in Markdown&amp;hellip;  :D</description>
+    </item>
+    
+    <item>
+      <title>Event three</title>
+      <link>http://cryptoumn.com/club-event/event_three/</link>
+      <pubDate>Fri, 09 Mar 2018 20:17:19 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/club-event/event_three/</guid>
+      <description>This is event 3</description>
+    </item>
+    
+    <item>
+      <title>Event two</title>
+      <link>http://cryptoumn.com/club-event/event_two/</link>
+      <pubDate>Fri, 09 Mar 2018 19:50:41 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/club-event/event_two/</guid>
+      <description>Yep, event number 2!!!</description>
+    </item>
+    
+    <item>
+      <title>Cotwone</title>
+      <link>http://cryptoumn.com/coin-of-the-week/cotwone/</link>
+      <pubDate>Thu, 08 Mar 2018 18:20:07 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/coin-of-the-week/cotwone/</guid>
+      <description>Coin of the week one</description>
+    </item>
+    
+    <item>
+      <title>Newsletterone</title>
+      <link>http://cryptoumn.com/newsletter/newsletterone/</link>
+      <pubDate>Thu, 08 Mar 2018 18:19:51 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/newsletter/newsletterone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event one</title>
+      <link>http://cryptoumn.com/club-event/event_one/</link>
+      <pubDate>Thu, 08 Mar 2018 18:19:37 -0600</pubDate>
+      
+      <guid>http://cryptoumn.com/club-event/event_one/</guid>
+      <description>This is definitely not event 1</description>
+    </item>
+    
+  </channel>
+</rss>
