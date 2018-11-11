@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recruitment on Minnesota Cryptocurrency</title>
+    <link>https://mncryptocurrency.org/categories/recruitment/</link>
+    <description>Recent content in Recruitment on Minnesota Cryptocurrency</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Nov 2018 20:28:28 +0000</lastBuildDate>
+    
+	<atom:link href="https://mncryptocurrency.org/categories/recruitment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kyle Samera on Entrepreneurship in Crypto</title>
+      <link>https://mncryptocurrency.org/club-event/kyle-samera-on-entrepreneurship-in-crypto/</link>
+      <pubDate>Thu, 01 Nov 2018 20:28:28 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/kyle-samera-on-entrepreneurship-in-crypto/</guid>
+      <description>Time: 04:30 PM on Friday, October 19, 2018
+Location: Bruininks 432 Come join us this Friday to hear Kyle Samera discuss his experience starting the cryptocurrency newsletter Unbankd. FREE FOOD will be provided!</description>
+    </item>
+    
+  </channel>
+</rss>

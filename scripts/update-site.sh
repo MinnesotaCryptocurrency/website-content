@@ -5,11 +5,11 @@ printf "" > ./commit-message.txt
 printf "\n\nAutomated update\n\n" >> ./commit-message.txt
 
 printf "python3 ./update-club-events-from-gopherlink.py <<<\n" >> ./commit-message.txt
-python ./update-club-events-from-gopherlink.py >> ./commit-message.txt
+python ./scripts/update-club-events-from-gopherlink.py >> ./commit-message.txt
 printf "\n>>>\n" >> ./commit-message.txt
 
 printf "python3 ./update-newsletters-from-email.py <<<\n"
-python ./update-newsletters-from-email.py >> ./commit-message.txt
+python ./scripts/update-newsletters-from-email.py >> ./commit-message.txt
 printf "\n>>>" >> ./commit-message.txt
 
 # compile site
@@ -20,4 +20,4 @@ git add content/ docs/
 # git commit -m "update-site.sh: $(date) $(cat ./commit-message.txt)"
 # git push -u origin master
 
-rm ./commit-message.txt
+# rm ./commit-message.txt

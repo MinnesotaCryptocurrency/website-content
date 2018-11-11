@@ -48,19 +48,28 @@ for x in range(i):
             #     content += s.string
             # content += '</style>'
 
-            main_table = d.select_one('body > table.mainTable.mlBodyBackground')
-            main_tables = main_table.select('td.mlTemplateContainer > table')
+            # main_table = d.select_one('body > table')
+            # main_tables = main_table.select('td.mlTemplateContainer > table')
 
-            # contains the "open in browser" link
-            first_table = main_tables[0].decompose()
+            # # contains the "open in browser" link
+            # first_table = main_tables[0]
+            # print(first_table.prettify())
 
-            # mailerlite logo
-            last_table = main_tables[2].decompose()
+            # # # mailerlite logo
+            # # last_table = main_tables[2].decompose()
 
-            # remove unsubscribe link
-            main_table.select_one('table.mlContentTable.mlContentTableFooterDefault').decompose()
+            # # remove unsubscribe link
+            # main_table.select_one('table.mlContentTable.mlFooterTable').decompose()
 
-            content += '\n\n\n' + main_table.prettify()
+            # content += '\n\n\n' + main_table.prettify()
+
+            body = d.select_one('body')
+            body.select_one('.mlContentTable.mlFooterTable').decompose()
+            body.select_one('table.mobileHide').decompose()
+            thing = body.select('.mlContentTable a img')
+            last = thing[len(thing) - 1]
+            last.decompose()
+            content += '\n\n\n' + body.prettify()
 
             post = frontmatter.Post(content,
                 date=dateutil.parser.parse(email_message["date"]).isoformat(),

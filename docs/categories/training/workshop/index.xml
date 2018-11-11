@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Training/Workshop on Minnesota Cryptocurrency</title>
+    <link>https://mncryptocurrency.org/categories/training/workshop/</link>
+    <description>Recent content in Training/Workshop on Minnesota Cryptocurrency</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 20:25:30 +0000</lastBuildDate>
+    
+	<atom:link href="https://mncryptocurrency.org/categories/training/workshop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Decentralized Storage</title>
+      <link>https://mncryptocurrency.org/club-event/decentralized-storage/</link>
+      <pubDate>Sun, 11 Nov 2018 20:25:30 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/decentralized-storage/</guid>
+      <description>Time: 07:00 PM on Wednesday, November 7, 2018
+Location: Bruininks Hall 123 Join us TODAY to take a deep dive into distributed storage methods. We will discuss the pros and cons (mostly cons) of storing information on distributed systems, and we will cover some workarounds and other solutions to facilitate the integration of information with these distributed systems. Previous blockchain knowledge suggested but not required.
+When? Today at 7:00 PM</description>
+    </item>
+    
+    <item>
+      <title>Cryptocurrency Deep Dive - Privacy</title>
+      <link>https://mncryptocurrency.org/club-event/cryptocurrency-deep-dive---privacy/</link>
+      <pubDate>Sun, 04 Nov 2018 08:27:08 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/cryptocurrency-deep-dive---privacy/</guid>
+      <description>Time: 07:00 PM on Wednesday, September 19, 2018
+Location: Bruininks Hall 123 Join us for our first Deep Dive session about privacy technologies! We will discuss ring signatures, stealth addresses, zkSNARKs, zkSTARKs, bulletproofs, CoinJoin, TumbleBit, and MimbleWimble. Privacy is extremely important for decentralized systems. If projects like Monero, Zcash, Dash, Grin, and PIVX interest you, make sure to attend!
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Mining Workshop</title>
+      <link>https://mncryptocurrency.org/club-event/mining-workshop/</link>
+      <pubDate>Sun, 04 Nov 2018 08:27:04 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/mining-workshop/</guid>
+      <description>Time: 04:30 PM on Friday, September 28, 2018
+Location: Robert Bruininks Hall 432 Join us this Friday in Bruininks Hall 432 at 4:30p to learn the basics of mining cryptocurrency.</description>
+    </item>
+    
+    <item>
+      <title>Ethereum Solidity Coding Session</title>
+      <link>https://mncryptocurrency.org/club-event/ethereum-solidity-coding-session/</link>
+      <pubDate>Sun, 04 Nov 2018 08:27:03 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/ethereum-solidity-coding-session/</guid>
+      <description>Time: 07:00 PM on Wednesday, October 3, 2018
+Location: Bruininks Hall 123 Learn Ethereum and Solidity! You can use the programming language Solidity to create smart contracts on the Ethereum blockchain. Some previous experience with object-oriented programming is preferred but not required.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Forks</title>
+      <link>https://mncryptocurrency.org/club-event/bitcoin-forks/</link>
+      <pubDate>Thu, 01 Nov 2018 20:28:30 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/bitcoin-forks/</guid>
+      <description>Time: 04:30 PM on Friday, October 12, 2018
+Location: Bruininks 432 Come to our meeting THIS Friday at 4:30p in Bruininks 432 to learn more about current and future Bitcoin forks!</description>
+    </item>
+    
+    <item>
+      <title>Create Your Own Cryptocurrency!</title>
+      <link>https://mncryptocurrency.org/club-event/create-your-own-cryptocurrency/</link>
+      <pubDate>Thu, 01 Nov 2018 20:28:29 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/create-your-own-cryptocurrency/</guid>
+      <description>Time: 07:00 PM on Wednesday, October 17, 2018
+Location: Bruininks Hall 123 Create your own cryptocurrency today at our deep dive meeting! We will get into many mechanics if time permits, from start to the process of implementing mining!
+Find us at 7 PM in Bruininks Hall 123!</description>
+    </item>
+    
+    <item>
+      <title>Crypto Scams</title>
+      <link>https://mncryptocurrency.org/club-event/crypto-scams/</link>
+      <pubDate>Thu, 01 Nov 2018 20:28:26 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/crypto-scams/</guid>
+      <description>Time: 04:30 PM on Friday, November 2, 2018
+Location: Bruininks Hall 432 FREE CANE&amp;rsquo;S! Also, the growth of the blockchain and cryptocurrency ecosystem has been exciting. innovations have attracted quit a big crowd over the year, but this also includes a number of bad actors. Join us this Friday to discuss and learn about the scams that have happened in the past and how to avoid the current ones today. This space is a lot more enjoyable if you know how to navigate it!</description>
+    </item>
+    
+  </channel>
+</rss>

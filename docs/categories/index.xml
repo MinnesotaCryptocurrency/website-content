@@ -1,14 +1,69 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Crypto@UMN</title>
-    <link>http://cryptoumn.com/categories/</link>
-    <description>Recent content in Categories on Crypto@UMN</description>
+    <title>Categories on Minnesota Cryptocurrency</title>
+    <link>https://mncryptocurrency.org/categories/</link>
+    <description>Recent content in Categories on Minnesota Cryptocurrency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 11 Nov 2018 20:25:30 +0000</lastBuildDate>
     
-	<atom:link href="http://cryptoumn.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mncryptocurrency.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Awareness</title>
+      <link>https://mncryptocurrency.org/categories/awareness/</link>
+      <pubDate>Sun, 11 Nov 2018 20:25:30 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/categories/awareness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>General Group Meeting</title>
+      <link>https://mncryptocurrency.org/categories/general-group-meeting/</link>
+      <pubDate>Sun, 11 Nov 2018 20:25:29 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/categories/general-group-meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lecture/Information Session</title>
+      <link>https://mncryptocurrency.org/categories/lecture/information-session/</link>
+      <pubDate>Sun, 11 Nov 2018 20:25:30 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/categories/lecture/information-session/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recruitment</title>
+      <link>https://mncryptocurrency.org/categories/recruitment/</link>
+      <pubDate>Thu, 01 Nov 2018 20:28:28 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/categories/recruitment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social Gathering</title>
+      <link>https://mncryptocurrency.org/categories/social-gathering/</link>
+      <pubDate>Sun, 11 Nov 2018 20:25:29 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/categories/social-gathering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training/Workshop</title>
+      <link>https://mncryptocurrency.org/categories/training/workshop/</link>
+      <pubDate>Sun, 11 Nov 2018 20:25:30 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/categories/training/workshop/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
