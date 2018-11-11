@@ -8,7 +8,7 @@ printf "python3 ./update-club-events-from-gopherlink.py <<<\n" >> ./commit-messa
 python3 ./scripts/update-club-events-from-gopherlink.py >> ./commit-message.txt
 printf "\n>>>\n" >> ./commit-message.txt
 
-printf "python3 ./update-newsletters-from-email.py <<<\n"
+printf "python3 ./update-newsletters-from-email.py <<<\n" >> ./commit-message.txt
 python3 ./scripts/update-newsletters-from-email.py >> ./commit-message.txt
 printf "\n>>>" >> ./commit-message.txt
 
