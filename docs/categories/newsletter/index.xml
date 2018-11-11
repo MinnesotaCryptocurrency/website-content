@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Newsletter on Minnesota Cryptocurrency</title>
-    <link>https://mncryptocurrency.org/newsletter/</link>
+    <link>https://mncryptocurrency.org/categories/newsletter/</link>
     <description>Recent content in Newsletter on Minnesota Cryptocurrency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Mar 2018 19:02:00 -0600</lastBuildDate>
+    <lastBuildDate>Sun, 11 Nov 2018 20:10:13 +0000</lastBuildDate>
     
-	<atom:link href="https://mncryptocurrency.org/newsletter/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mncryptocurrency.org/categories/newsletter/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
