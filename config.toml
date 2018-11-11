@@ -1,5 +1,6 @@
-baseURL = "http://cryptoumn.com"
+baseURL = "https://mncryptocurrency.org"
 languageCode = "en-us"
-title = "Crypto@UMN"
+title = "Minnesota Cryptocurrency"
 theme = "cryptoumn"
 publishDir = "docs"
+googleAnalytics = "UA-129079286-1"
