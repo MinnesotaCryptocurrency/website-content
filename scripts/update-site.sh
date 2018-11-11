@@ -20,4 +20,4 @@ git add content/ docs/ static/
 git commit -m "update-site.sh: $(date) $(cat ./commit-message.txt)"
 git push -u origin master
 
-rm ./commit-message.txt
+# rm ./commit-message.txt
