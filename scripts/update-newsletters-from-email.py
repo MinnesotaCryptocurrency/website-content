@@ -5,13 +5,15 @@ import io
 import myutils
 import frontmatter
 import dateutil.parser
+import json
 from bs4 import BeautifulSoup
 
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
-mail.login('email', 'password')
-
-mail.list()
-mail.select('cryptoumnweb')
+with open(myutils.pathify(myutils.root, 'secret.json')) as f:
+    j = json.loads(f.read())
+    mail.login(j['email'], j['password'])
+    mail.list()
+    mail.select(j['label'])
 
 result, data = mail.uid('search', None, "ALL")
 # search and return uids instead
