@@ -85,7 +85,7 @@ try:
     url = "https://gopherlink.umn.edu/api/discovery/search/events"
 
     querystring = {
-        # "top": "5",
+        "top": str(updatelast),
         "orderBy[0]": "EndsOn desc",
         "context": "{\"organizationIds\": [" + orgid + "]}",
     }
