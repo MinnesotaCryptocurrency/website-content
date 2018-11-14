@@ -6,10 +6,22 @@
     <description>Recent content in Awareness on Minnesota Cryptocurrency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Nov 2018 22:41:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Nov 2018 22:41:54 +0000</lastBuildDate>
     
 	<atom:link href="https://mncryptocurrency.org/categories/awareness/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Make Your Own Cryptocurrency Coding Session</title>
+      <link>https://mncryptocurrency.org/club-event/make-your-own-cryptocurrency-coding-session/</link>
+      <pubDate>Wed, 14 Nov 2018 22:41:54 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/make-your-own-cryptocurrency-coding-session/</guid>
+      <description>Time: 07:00 PM on Wednesday, November 14, 2018
+Location: Bruininks Hall 123 Join us this Wednesday as we explore integrating transactions with our blockchain. We will be discussing inputs and outputs, transaction fees, miner&amp;rsquo;s rewards, and so much more! We have streamlined the development process to focus more on high-level topics, so make sure to attend even if you aren&amp;rsquo;t an expert coder!
+
+When?Wednesday, November 14th at 7:00 PM</description>
+    </item>
     
     <item>
       <title>Cryptocurrency Deep Dive - Privacy</title>
