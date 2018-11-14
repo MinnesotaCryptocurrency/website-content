@@ -24,17 +24,17 @@ root = os.path.realpath(os.path.join(
 ))
 
 def generatepostcontent (eventjson):
-    img = "<img src=\"/img/club-event/" + eventjson["ImagePath"] + "\" alt=\"" + eventjson["Name"] + " banner image\" /><br>"
+    img = "<img src=\"/img/club-event/" + eventjson["imagePath"] + "\" alt=\"" + eventjson["name"] + " banner image\" /><br>"
     info = '''
     <p class="eventInfo">
         <strong>Time</strong>: {time}<br>
         <strong>Location</strong>: {location}
     </p>
     '''.format(
-        location=event["Location"],
-        time=dateutil.parser.parse(event["StartsOn"]).astimezone(tz=tz.tzlocal()).strftime('%I:%M %p on %A, %B %e, %Y'),
+        location=event["location"],
+        time=dateutil.parser.parse(event["startsOn"]).astimezone(tz=tz.tzlocal()).strftime('%I:%M %p on %A, %B %e, %Y'),
     )
-    return img + info + eventjson["Description"]
+    return img + info + eventjson["description"]
 
 def generatepost (eventjson):
     p = frontmatter.Post('', date=datetime.datetime.now(datetime.timezone.utc).isoformat())
@@ -42,16 +42,16 @@ def generatepost (eventjson):
     return p
 
 def downloadimage (eventjson):
-    url = "https://images.collegiatelink.net/clink/images/" + eventjson["ImagePath"]
+    url = "https://images.collegiatelink.net/clink/images/" + eventjson["imagePath"]
     response = requests.get(url)
     if response.status_code == 200:
-        path = os.path.join(root, os.path.normpath("static/img/club-event/" + eventjson["ImagePath"]))
+        path = os.path.join(root, os.path.normpath("static/img/club-event/" + eventjson["imagePath"]))
         with open(path, "w+b") as f:
             f.write(response.content)
-            print("Downloaded image for event " + eventjson["Name"] + " to " + path)
+            print("Downloaded image for event " + eventjson["name"] + " to " + path)
 
 def pagepath (eventjson):
-    return os.path.join(root, os.path.normpath("content/club-event/" + eventjson["Id"] + ".md"))
+    return os.path.join(root, os.path.normpath("content/club-event/" + eventjson["id"] + ".md"))
 
 def pageexists (eventjson):
     return os.path.isfile(pagepath(eventjson))
@@ -59,19 +59,16 @@ def pageexists (eventjson):
 def updatepost (eventjson, p):
     p.content = generatepostcontent(eventjson)
 
-    p["title"] = eventjson["Name"]
-    p["slug"] = eventjson["Name"]
-    starts = dateutil.parser.parse(eventjson["StartsOn"])
-    d = datetime.datetime.now(datetime.timezone.utc)
-    if starts < d:
-        d = starts
-    p["publishdate"] = d.isoformat()
+    p["title"] = eventjson["name"]
+    p["slug"] = eventjson["name"]
+    starts = dateutil.parser.parse(eventjson["startsOn"])
+    p["publishdate"] = starts.isoformat()
     p["lastmod"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     p["starts"] = starts.isoformat()
-    p["ends"] = dateutil.parser.parse(eventjson["EndsOn"]).isoformat()
-    p["image"] = "/img/club-event/" + eventjson["ImagePath"]
-    p["categories"] = eventjson["CategoryNames"]
-    p["tags"] = eventjson["BenefitNames"]
+    p["ends"] = dateutil.parser.parse(eventjson["endsOn"]).isoformat()
+    p["image"] = "/img/club-event/" + eventjson["imagePath"]
+    p["categories"] = eventjson["categoryNames"]
+    p["tags"] = eventjson["benefitNames"]
 
 def writepage (eventjson, p):
     fpath = pagepath(eventjson)
@@ -79,15 +76,17 @@ def writepage (eventjson, p):
         o = io.BytesIO()
         frontmatter.dump(p, o, handler=frontmatter.YAMLHandler())
         f.write(o.getvalue())
-        print("Wrote page for event " + eventjson["Name"] + " to " + fpath)
+        print("Wrote page for event " + eventjson["name"] + " to " + fpath)
 
 try:
-    url = "https://gopherlink.umn.edu/api/discovery/search/events"
+    url = "https://gopherlink.umn.edu/api/discovery/event/search"
 
     querystring = {
-        "top": str(updatelast),
-        "orderBy[0]": "EndsOn desc",
-        "context": "{\"organizationIds\": [" + orgid + "]}",
+        "orderByField": "endsOn",
+        "orderByDirection": "descending",
+        "status": "Approved",
+        "take": str(updatelast),
+        "organizationIds[0]": orgid,
     }
 
     r = requests.get(url, params=querystring)

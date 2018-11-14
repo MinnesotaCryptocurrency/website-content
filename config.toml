@@ -4,3 +4,4 @@ title = "Minnesota Cryptocurrency"
 theme = "cryptoumn"
 publishDir = "docs"
 googleAnalytics = "UA-129079286-1"
+buildFuture = true
