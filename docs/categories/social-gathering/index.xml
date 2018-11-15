@@ -6,10 +6,22 @@
     <description>Recent content in Social Gathering on Minnesota Cryptocurrency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 11 Nov 2018 22:41:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Nov 2018 22:49:58 +0000</lastBuildDate>
     
 	<atom:link href="https://mncryptocurrency.org/categories/social-gathering/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Battle for Privacy</title>
+      <link>https://mncryptocurrency.org/club-event/battle-for-privacy/</link>
+      <pubDate>Wed, 14 Nov 2018 22:49:58 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/club-event/battle-for-privacy/</guid>
+      <description>Time: 04:30 PM on Friday, November 16, 2018
+Location: Bruininks 432 Privacy coins like Monero and Zcash feature cutting-edge applied cryptography. Privacy, fungibility, and security are important characteristics of money. Join us this Friday to learn more about these privacy coins and how they&amp;rsquo;re changing the game. We will also discuss the difficulty of developing privacy-focused systems and the best ways for assessing the quality of privacy technologies.
+
+When? Friday, November 16th at 4:30 PM</description>
+    </item>
     
     <item>
       <title>Cryptocurrency Deep Dive - Privacy</title>
