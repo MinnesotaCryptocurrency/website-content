@@ -44,33 +44,20 @@ for x in range(i):
 
             content = ''
 
-            # adding styles below, but commented out because it messed up the styles on the rest of the site
-            # content += '<style>'
-            # for s in d.find_all('style'):
-            #     content += s.string
-            # content += '</style>'
-
-            # main_table = d.select_one('body > table')
-            # main_tables = main_table.select('td.mlTemplateContainer > table')
-
-            # # contains the "open in browser" link
-            # first_table = main_tables[0]
-            # print(first_table.prettify())
-
-            # # # mailerlite logo
-            # # last_table = main_tables[2].decompose()
-
-            # # remove unsubscribe link
-            # main_table.select_one('table.mlContentTable.mlFooterTable').decompose()
-
-            # content += '\n\n\n' + main_table.prettify()
-
             body = d.select_one('body')
-            body.select_one('.mlContentTable.mlFooterTable').decompose()
-            body.select_one('table.mobileHide').decompose()
-            thing = body.select('.mlContentTable a img')
-            last = thing[len(thing) - 1]
-            last.decompose()
+
+            anchors = body.select('a')
+            for a in anchors:
+                a['rel'] = 'nofollow'
+                del a['target']
+
+            # View in browser link
+            anchors[0].decompose()
+            # Unsubscribe link
+            anchors[len(anchors) - 2].decompose()
+            # Mailerlite link
+            anchors[len(anchors) - 1].decompose()
+
             content += '\n\n\n' + body.prettify()
 
             post = frontmatter.Post(content,
