@@ -2,10 +2,15 @@ import requests
 import frontmatter
 import io
 import os
+import re
 import datetime
 import sys
 from dateutil import tz
 import dateutil.parser
+
+# All dates/times are in UTC, and are stored that way in the md files
+# HOWEVER, "display" dates (including, for example, the URL in md frontmatter)
+# are in local tz
 
 orgid = "155406"
 
@@ -60,9 +65,13 @@ def updatepost (eventjson, p):
     p.content = generatepostcontent(eventjson)
 
     p["title"] = eventjson["name"]
-    p["slug"] = eventjson["name"]
+    # p["slug"] = eventjson["name"]
     starts = dateutil.parser.parse(eventjson["startsOn"])
     p["publishdate"] = starts.isoformat()
+
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", eventjson["name"]).lower().strip()
+    slugdate = starts.astimezone(tz=tz.tzlocal())
+    p["url"] = "/club-event/" + slugdate.strftime("%Y/%m/%d") + "/" + slug
     p["lastmod"] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     p["starts"] = starts.isoformat()
     p["ends"] = dateutil.parser.parse(eventjson["endsOn"]).isoformat()
