@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Minnesota Cryptocurrency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Nov 2018 03:23:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jan 2019 16:23:05 +0000</lastBuildDate>
     
 	<atom:link href="https://mncryptocurrency.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Free Food</title>
       <link>https://mncryptocurrency.org/tags/free-food/</link>
-      <pubDate>Thu, 29 Nov 2018 03:23:48 +0000</pubDate>
+      <pubDate>Sat, 12 Jan 2019 16:23:05 +0000</pubDate>
       
       <guid>https://mncryptocurrency.org/tags/free-food/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free Stuff</title>
+      <link>https://mncryptocurrency.org/tags/free-stuff/</link>
+      <pubDate>Sat, 12 Jan 2019 16:23:05 +0000</pubDate>
+      
+      <guid>https://mncryptocurrency.org/tags/free-stuff/</guid>
       <description></description>
     </item>
     
