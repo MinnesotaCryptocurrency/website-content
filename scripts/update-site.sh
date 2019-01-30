@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+git pull
+
 touch ./commit-message.txt
 printf "" > ./commit-message.txt
 printf "\n\nAutomated update\n\n" >> ./commit-message.txt
