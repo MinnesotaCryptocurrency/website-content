@@ -6,4 +6,4 @@ draft: false
 
 Receive regular updates about the club and the market!
 
-<a href="https://www.subscribepage.com/cryptoumn" class="button">Sign up</a>
+<a href="https://www.subscribepage.com/mncryptocurrency" class="button">Sign up</a>
