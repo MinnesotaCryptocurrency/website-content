@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mncryptocurrency.org/categories/</loc>
+    <lastmod>2019-08-27T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mncryptocurrency.org/newsletter/minnesota-cryptocurrency-is-back-/</loc>
     <lastmod>2019-08-27T01:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://mncryptocurrency.org/categories/newsletter/</loc>
+    <lastmod>2019-08-27T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mncryptocurrency.org/categories/general-group-meeting/</loc>
+    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mncryptocurrency.org/club-event/2019/03/08/nano/</loc>
+    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mncryptocurrency.org/categories/social-gathering/</loc>
+    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mncryptocurrency.org/categories/lecture/information-session/</loc>
     <lastmod>2019-04-07T16:59:54+00:00</lastmod>
   </url>
   
@@ -18,7 +43,22 @@
   </url>
   
   <url>
+    <loc>https://mncryptocurrency.org/tags/free-food/</loc>
+    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mncryptocurrency.org/tags/free-stuff/</loc>
+    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mncryptocurrency.org/club-event/2019/04/05/stratis/</loc>
+    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mncryptocurrency.org/tags/</loc>
     <lastmod>2019-04-07T16:59:54+00:00</lastmod>
   </url>
   
@@ -78,6 +118,11 @@
   </url>
   
   <url>
+    <loc>https://mncryptocurrency.org/categories/recruitment/</loc>
+    <lastmod>2019-02-26T17:14:50+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mncryptocurrency.org/newsletter/consensus-algorithms-how-blockchains-work-discussion/</loc>
     <lastmod>2019-02-05T04:30:14+00:00</lastmod>
   </url>
@@ -95,6 +140,11 @@
   <url>
     <loc>https://mncryptocurrency.org/newsletter/spring-semester-kick-off-event/</loc>
     <lastmod>2019-01-23T15:40:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mncryptocurrency.org/categories/awareness/</loc>
+    <lastmod>2019-02-26T17:14:50+00:00</lastmod>
   </url>
   
   <url>
@@ -125,6 +175,11 @@
   <url>
     <loc>https://mncryptocurrency.org/club-event/2018/11/14/make-your-own-cryptocurrency-coding-session/</loc>
     <lastmod>2019-01-30T05:40:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mncryptocurrency.org/categories/training/workshop/</loc>
+    <lastmod>2019-02-14T17:27:31+00:00</lastmod>
   </url>
   
   <url>
@@ -245,72 +300,6 @@
   <url>
     <loc>https://mncryptocurrency.org/</loc>
     <lastmod>2018-03-05T14:48:58-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/awareness/</loc>
-    <lastmod>2019-02-26T17:14:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/</loc>
-    <lastmod>2019-02-26T17:14:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/tags/free-food/</loc>
-    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/tags/free-stuff/</loc>
-    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/general-group-meeting/</loc>
-    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/lecture/information-session/</loc>
-    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/newsletter/</loc>
-    <lastmod>2019-08-27T01:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/recruitment/</loc>
-    <lastmod>2019-02-26T17:14:50+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/social-gathering/</loc>
-    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/tags/</loc>
-    <lastmod>2019-04-07T16:59:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mncryptocurrency.org/categories/training/workshop/</loc>
-    <lastmod>2019-01-30T05:40:23+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>
